@@ -16,8 +16,6 @@ namespace SoracomDemo
         private static HttpClient client = new HttpClient();
         private const string EndPointHarvest = "http://harvest.soracom.io";
 
-        private string sendData = "{\"element1\":\"{0}\", \"element2\":\"{1}\"}";
-
         public FormSoracom()
         {
             InitializeComponent();
